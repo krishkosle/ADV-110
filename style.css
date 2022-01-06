@@ -25,3 +25,8 @@ span
 {
   font-size:48px;
 }
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
