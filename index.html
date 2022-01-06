@@ -39,9 +39,25 @@
       </p>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Snapshot - </label>
-
-        <br><br>
+	      <lable>Webcam View - </lable>
+	      <div id="camera"></div>
+	      <br><br>
+	      <button onclick="take_snapshot();" class="btn btn-warning" Capture Image</button>
+	    </div>
+	    <div class="col-md-4 col=sm-12 col-xs-12">
+		    <ladel> Prediction 1 - </label>
+		    <p class="emotion_name" id="result_emotion_name"></p>
+		    <p class="emoji" id="update_emoji"></p>
+		    
+		    <ladel> Prediction 2 - </label>
+		    <p class="emotion_name" id="result_emotion_name2"></p>
+		    <p class="emoji" id="update_emoji2"></p>
+		   </div> 
+		 <div class="col-md-4 col-sm-12 col-xs-12">
+	      <lable>Snapshot - </lable>
+	      <div id="camera"></div>
+	      <br><br>
+	      <button onclick="check();" class="btn btn-warning"predict emotion</button>
 
       </div>
 
